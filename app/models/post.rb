@@ -1,4 +1,4 @@
-class post < ApplicationRecord
-    validates: title, presence: true 
-    validates: description, presence: true  
+class Post < ApplicationRecord
+    validates :title, presence: true 
+    validates :description, presence: true  
 end

@@ -1,1 +1,8 @@
-<%= @posts %> 
+<h1> Mi post de hoy </h1>
+<%= link_to 'crear nuevo post', new_post_path %>
+<ul>
+    <% @posts.each do |post| %>
+      <li><%= link_to post.title, post %></li>
+      </p><%= post.description %></li>
+    <% end %>
+</ul>

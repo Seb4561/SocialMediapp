@@ -1,6 +1,2 @@
-class PostController < ApplicationCenter
-
-  def index 
-    @posts = Post.all
-  end
+class ApplicationController < ActionController::Base
 end

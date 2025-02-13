@@ -6,5 +6,6 @@ class Posts < ActiveRecord::Migration[8.0]
       t.string :media_url
 
       t.timestamps
+    end
   end
 end
